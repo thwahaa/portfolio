@@ -59,94 +59,99 @@ export const portfolioContent = {
   ],
 
   // Home Hero Section
-  headline: {
-    prefix: "I help businesses grow through",
-    pill1: "SEO & Digital Marketing",
-    pill2: "Performance-Driven Strategies",
-    suffix: "that generate measurable results",
-  },
+  home: {
+    headline: {
+      prefix: "I help businesses grow through",
+      pill1: "SEO & Digital Marketing",
+      pill2: "Performance-Driven Strategies",
+      suffix: "that generate measurable results",
+    },
 
-  stats: [
-    {
-      value: 50,
-      symbol: "+",
-      label: "Blogs Published",
-    },
-    {
-      value: 100,
-      symbol: "+",
-      label: "Keywords Optimized",
-    },
-    {
-      value: 20,
-      symbol: "+",
-      label: "SEO Projects",
-    },
-  ],
-
-  ticker: {
-    title: "Core Digital Marketing Skills",
-    items: [
-      "SEO",
-      "Technical SEO",
-      "On-Page SEO",
-      "Off-Page SEO",
-      "Google Ads",
-      "Meta Ads",
-      "Keyword Research",
-      "Content Marketing",
-      "GA4",
-      "Google Search Console",
-      "SEMrush",
-      "WordPress",
-      "Backlink Building",
-      "Competitor Analysis",
-      "AEO",
-      "GEO",
+    stats: [
+      {
+        value: 50,
+        symbol: "+",
+        label: "Blogs Published",
+      },
+      {
+        value: 100,
+        symbol: "+",
+        label: "Keywords Optimized",
+      },
+      {
+        value: 20,
+        symbol: "+",
+        label: "SEO Projects",
+      },
     ],
+
+    ticker: {
+      title: "Core Digital Marketing Skills",
+      items: [
+        "SEO",
+        "Technical SEO",
+        "On-Page SEO",
+        "Off-Page SEO",
+        "Google Ads",
+        "Meta Ads",
+        "Keyword Research",
+        "Content Marketing",
+        "GA4",
+        "Google Search Console",
+        "SEMrush",
+        "WordPress",
+        "Backlink Building",
+        "Competitor Analysis",
+        "AEO",
+        "GEO",
+      ],
+    },
   },
 
   // About Section
-  heading: "Driving business growth through SEO, content strategy, paid advertising, and performance marketing",
+  about: {
+    badge: "About",
+    heading: "Driving business growth through SEO, content strategy, paid advertising, and performance marketing",
 
-  paragraphs: [
-    "I am Thwaha, a Digital Marketing Analyst and SEO Specialist with hands-on experience in SEO, Google Ads, Meta Ads, social media management, content creation, and website optimization.",
+    paragraphs: [
+      "I am Thwaha, a Digital Marketing Analyst and SEO Specialist with hands-on experience in SEO, Google Ads, Meta Ads, social media management, content creation, and website optimization.",
 
-    "My experience includes technical SEO, on-page optimization, backlink building, keyword research, content strategy, website audits, Google Analytics reporting, Google Search Console monitoring, and performance marketing campaigns."
-  ],
+      "My experience includes technical SEO, on-page optimization, backlink building, keyword research, content strategy, website audits, Google Analytics reporting, Google Search Console monitoring, and performance marketing campaigns."
+    ],
 
-  competencies: [
-    {
-      title: "SEO Specialist",
-      organization: "Filumart B2B Marketplace",
-      year: "2026",
-      image: "/images/filumart.png",
-    },
-    {
-      title: "Digital Marketing Intern",
-      organization: "Bisaura Technologies",
-      year: "2025",
-      image: "/images/bisaura.png",
-    },
-    {
-      title: "SEO Audit Project",
-      organization: "Vismaya Amusement Park",
-      year: "2025",
-      image: "/images/vismaya.png",
-    },
-    {
-      title: "Content Strategy Project",
-      organization: "Majlis Restaurant",
-      year: "2025",
-      image: "/images/majlis.png",
-    },
-    {
-      title: "SEO & WordPress Specialist",
-      organization: "Personal Projects",
-      year: "2026",
-      image: "/images/thwaha.png",
-    },
-  ],
+    competencies: [
+      {
+        title: "SEO Specialist",
+        organization: "Filumart B2B Marketplace",
+        year: "2026",
+        image: "/images/filumart.png",
+      },
+      {
+        title: "Digital Marketing Intern",
+        organization: "Bisaura Technologies",
+        year: "2025",
+        image: "/images/bisaura.png",
+      },
+      {
+        title: "SEO Audit Project",
+        organization: "Vismaya Amusement Park",
+        year: "2025",
+        image: "/images/vismaya.png",
+      },
+      {
+        title: "Content Strategy Project",
+        organization: "Majlis Restaurant",
+        year: "2025",
+        image: "/images/majlis.png",
+      },
+      {
+        title: "SEO & WordPress Specialist",
+        organization: "Personal Projects",
+        year: "2026",
+        image: "/images/thwaha.png",
+      },
+    ],
+  },
   // Education & Experience Timeline
   education: {
     badge: "Education & Experience",
@@ -274,95 +279,103 @@ export const portfolioContent = {
   },
 
   // Services Offered Section
-  items: [
-    {
-      id: "seo-services",
-      title: "Search Engine Optimization",
-      tags: [
-        "Technical SEO",
-        "On-Page SEO",
-        "Off-Page SEO",
-        "Local SEO",
-        "Keyword Research",
-      ],
-      description: "Comprehensive SEO services focused on improving rankings, traffic, visibility, and conversions.",
-      images: ["/images/seo1.png", "/images/seo2.png"],
-    },
+  services: {
+    badge: "Services",
+    heading: "Data-driven SEO, performance marketing & digital growth services",
+    items: [
+      {
+        id: "seo-services",
+        title: "Search Engine Optimization",
+        tags: [
+          "Technical SEO",
+          "On-Page SEO",
+          "Off-Page SEO",
+          "Local SEO",
+          "Keyword Research",
+        ],
+        description: "Comprehensive SEO services focused on improving rankings, traffic, visibility, and conversions.",
+        images: ["/images/seo1.png", "/images/seo2.png"],
+      },
 
-    {
-      id: "google-ads",
-      title: "Google Ads Management",
-      tags: [
-        "Search Ads",
-        "Display Ads",
-        "YouTube Ads",
-        "Remarketing",
-        "Lead Generation",
-      ],
-      description: "Strategic Google Ads campaigns designed to increase leads, sales, and ROI.",
-      images: ["/images/googleads1.png", "/images/googleads2.png"],
-    },
+      {
+        id: "google-ads",
+        title: "Google Ads Management",
+        tags: [
+          "Search Ads",
+          "Display Ads",
+          "YouTube Ads",
+          "Remarketing",
+          "Lead Generation",
+        ],
+        description: "Strategic Google Ads campaigns designed to increase leads, sales, and ROI.",
+        images: ["/images/googleads1.png", "/images/googleads2.png"],
+      },
 
-    {
-      id: "meta-ads",
-      title: "Meta Ads Management",
-      tags: [
-        "Facebook Ads",
-        "Instagram Ads",
-        "Audience Targeting",
-        "Lead Generation",
-        "Performance Marketing",
-      ],
-      description: "High-performing Meta advertising campaigns for business growth and customer acquisition.",
-      images: ["/images/meta1.png", "/images/meta2.png"],
-    },
-  ],
+      {
+        id: "meta-ads",
+        title: "Meta Ads Management",
+        tags: [
+          "Facebook Ads",
+          "Instagram Ads",
+          "Audience Targeting",
+          "Lead Generation",
+          "Performance Marketing",
+        ],
+        description: "High-performing Meta advertising campaigns for business growth and customer acquisition.",
+        images: ["/images/meta1.png", "/images/meta2.png"],
+      },
+    ],
+  },
 
   // Tech Stack & Tooling Section
-  items: [
-    {
-      name: "SEO",
-      duty: "Search Engine Optimization",
-      percent: 95,
-      iconSrc: "/icons/seo.svg",
-    },
-    {
-      name: "Google Ads",
-      duty: "Search, Display & YouTube Advertising",
-      percent: 85,
-      iconSrc: "/icons/googleads.svg",
-    },
-    {
-      name: "Meta Ads",
-      duty: "Facebook & Instagram Advertising",
-      percent: 85,
-      iconSrc: "/icons/meta.svg",
-    },
-    {
-      name: "Google Analytics",
-      duty: "Traffic & Conversion Tracking",
-      percent: 80,
-      iconSrc: "/icons/analytics.svg",
-    },
-    {
-      name: "Google Search Console",
-      duty: "Indexing & Search Performance",
-      percent: 90,
-      iconSrc: "/icons/gsc.svg",
-    },
-    {
-      name: "SEMrush",
-      duty: "SEO Research & Competitor Analysis",
-      percent: 85,
-      iconSrc: "/icons/semrush.svg",
-    },
-    {
-      name: "WordPress",
-      duty: "Website Management",
-      percent: 90,
-      iconSrc: "/icons/wordpress.svg",
-    },
-  ],
+  tech: {
+    badge: "Tech Stack",
+    heading: "Tools & technologies that drive measurable results",
+    items: [
+      {
+        name: "SEO",
+        duty: "Search Engine Optimization",
+        percent: 95,
+        iconSrc: "/icons/seo.svg",
+      },
+      {
+        name: "Google Ads",
+        duty: "Search, Display & YouTube Advertising",
+        percent: 85,
+        iconSrc: "/icons/googleads.svg",
+      },
+      {
+        name: "Meta Ads",
+        duty: "Facebook & Instagram Advertising",
+        percent: 85,
+        iconSrc: "/icons/meta.svg",
+      },
+      {
+        name: "Google Analytics",
+        duty: "Traffic & Conversion Tracking",
+        percent: 80,
+        iconSrc: "/icons/analytics.svg",
+      },
+      {
+        name: "Google Search Console",
+        duty: "Indexing & Search Performance",
+        percent: 90,
+        iconSrc: "/icons/gsc.svg",
+      },
+      {
+        name: "SEMrush",
+        duty: "SEO Research & Competitor Analysis",
+        percent: 85,
+        iconSrc: "/icons/semrush.svg",
+      },
+      {
+        name: "WordPress",
+        duty: "Website Management",
+        percent: 90,
+        iconSrc: "/icons/wordpress.svg",
+      },
+    ],
+  },
 
   // Thoughts, Milestones & Articles Section
   blog: {

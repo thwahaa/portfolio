@@ -36,6 +36,46 @@ function MediumIcon({ size = 16 }) {
   );
 }
 
+// Instagram icon
+function InstagramIcon({ size = 16 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    </svg>
+  );
+}
+
+// WhatsApp icon
+function WhatsAppIcon({ size = 16 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+    </svg>
+  );
+}
+
+// Facebook icon
+function FacebookIcon({ size = 16 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+    </svg>
+  );
+}
+
+// Fallback Globe icon
+function GlobeIcon({ size = 16 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="10" />
+      <line x1="2" x2="22" y1="12" y2="12" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+    </svg>
+  );
+}
+
 export default function SidebarUser({ theme = 'dark', activeProject = null }) {
   const { brand, socialLinks } = portfolioContent;
   const rolesList = (brand?.roles && brand.roles.length > 0) ? brand.roles : ROLES;
@@ -154,6 +194,9 @@ export default function SidebarUser({ theme = 'dark', activeProject = null }) {
               else if (p.includes('med')) IconComp = MediumIcon;
               else if (p.includes('insta')) IconComp = InstagramIcon;
               else if (p.includes('what') || p.includes('phone')) IconComp = WhatsAppIcon;
+              else if (p.includes('face')) IconComp = FacebookIcon;
+              else if (p.includes('link')) IconComp = LinkedInIcon;
+              else IconComp = GlobeIcon;
 
               return (
                 <a
@@ -259,7 +302,7 @@ export default function SidebarUser({ theme = 'dark', activeProject = null }) {
                 </div>
 
                 <div className="project-focus-tags">
-                  {displayProject.tags.slice(0, 3).map((tag, tIdx) => (
+                  {(displayProject.tags || []).slice(0, 3).map((tag, tIdx) => (
                     <span key={tIdx} className="project-focus-pill">
                       {tag}
                     </span>
