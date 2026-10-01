@@ -18,26 +18,32 @@
 export const portfolioContent = {
   // Brand & Personal Identity
   brand: {
-    name: "Hijaz C",
-    tagline: "Flutter Developer",
-    metaTitle: "Hijaz C — Mobile & Web Developer",
-    metaDescription: "Flutter Developer with 2+ years of application engineering experience. Building scalable, production-grade Android & iOS applications.",
-    displayWordmark: "hijaz", // Displayed in the signature area in the footer
-    avatar: "/images/hijaz-portrait.png", // Main portrait on the sticky sidebar
-    logo: "/images/hijaz-h-logo.png", // Header & sidebar brand logo
-    cvUrl: "/Resume_Hijaz_C.pdf", // Path to resume PDF file in /public
-    // Rotating roles for the typewriter headline in the sidebar
+    name: "Thwaha",
+    tagline: "Digital Marketing Analyst & SEO Specialist",
+    metaTitle: "Thwaha | Digital Marketing Analyst & SEO Specialist",
+    metaDescription: "Digital Marketing Analyst and SEO Specialist helping businesses grow through SEO, Google Ads, Meta Ads, content marketing, technical SEO, and performance marketing.",
+    displayWordmark: "thwaha",
+    avatar: "/images/thwaha-profile.png",
+    logo: "/images/thwaha-logo.png",
+    cvUrl: "/Thwaha_Resume.pdf",
+
     roles: [
-      "Digital Marketer",
+      "Digital Marketing Analyst",
       "SEO Specialist",
-      "Scribe",
+      "Performance Marketer",
+      "Google Ads Specialist",
+      "Meta Ads Specialist",
+      "Content Strategist"
     ],
+
     availability: {
       status: "Available for Work",
       isAvailable: true,
     },
-    shortBio: "I build scalable, user-friendly Android & iOS applications with Flutter and Clean Architecture, based in Kerala, IN.",
-    timezone: "Asia/Kolkata", // Timezone for the live real-time header clock
+
+    shortBio: "Digital Marketing Analyst and SEO Specialist passionate about SEO, Google Ads, Meta Ads, content marketing, analytics, and business growth through data-driven strategies.",
+
+    timezone: "Asia/Kolkata",
   },
 
   // Main Navigation Sections
@@ -53,113 +59,124 @@ export const portfolioContent = {
   ],
 
   // Home Hero Section
-  home: {
-    headline: {
-      prefix: "I’m building",
-      pill1: "mobile apps",
-      pill2: "& scalable systems",
-      suffix: "that people remember",
+  headline: {
+    prefix: "I help businesses grow through",
+    pill1: "SEO & Digital Marketing",
+    pill2: "Performance-Driven Strategies",
+    suffix: "that generate measurable results",
+  },
+
+  stats: [
+    {
+      value: 50,
+      symbol: "+",
+      label: "Blogs Published",
     },
-    // Animated numerical counters
-    stats: [
-      {
-        value: 3,
-        symbol: "+",
-        label: "Completed Projects",
-      },
-      {
-        value: 85,
-        symbol: "%",
-        label: "Academic Distinction (+2)",
-      },
-      {
-        value: 2,
-        symbol: "+",
-        label: "Years Practical Engineering",
-      },
+    {
+      value: 100,
+      symbol: "+",
+      label: "Keywords Optimized",
+    },
+    {
+      value: 20,
+      symbol: "+",
+      label: "SEO Projects",
+    },
+  ],
+
+  ticker: {
+    title: "Core Digital Marketing Skills",
+    items: [
+      "SEO",
+      "Technical SEO",
+      "On-Page SEO",
+      "Off-Page SEO",
+      "Google Ads",
+      "Meta Ads",
+      "Keyword Research",
+      "Content Marketing",
+      "GA4",
+      "Google Search Console",
+      "SEMrush",
+      "WordPress",
+      "Backlink Building",
+      "Competitor Analysis",
+      "AEO",
+      "GEO",
     ],
-    // Infinite scrolling specialties ticker
-    ticker: {
-      title: "Core Specialties & Skills (2024–26©)",
-      items: [
-        "Flutter Apps",
-        "Clean Architecture",
-        "BLoC State Management",
-        "Dart",
-        "Firebase & FCM",
-        "REST APIs & WebSockets",
-        "Hive & SQLite",
-        "App Store & Play Store",
-      ],
-    },
   },
 
   // About Section
-  about: {
-    badge: "About",
-    heading: "Engineering scalable mobile apps with Flutter, clean architecture, and robust code",
-    paragraphs: [
-      "I am a Flutter Developer with 2+ years of application engineering experience, including 8+ months in professional industry production. Experienced in architecting, building, deploying, and maintaining Android and iOS applications using Flutter and Dart.",
-      "Skilled in Clean Architecture, BLoC state management, Firebase, REST APIs, WebSockets, local persistence (Hive & SQLite), and store deployments across Google Play Console and Apple App Store Connect.",
-    ],
-    // Key milestones & accomplishments list
-    competencies: [
-      {
-        title: "Production Mobile Engineering",
-        organization: "Filumart B2B Platform (Android & iOS)",
-        year: "2025",
-        image: "/images/playstorefilumart.png",
-      },
-      {
-        title: "Multi-Platform Learning Ecosystem",
-        organization: "Skilnk – Student & Tutor Platform",
-        year: "2024",
-        image: "/images/skilnk.png",
-      },
-      {
-        title: "Offline-First Application Architecture",
-        organization: "Invento – Google Play Store Release",
-        year: "2024",
-        image: "/images/invento.png",
-      },
-      {
-        title: "Open Source Package Author",
-        organization: "Floating Custom Navbar (pub.dev)",
-        year: "2024",
-        image: "/images/floating_navbar.png",
-      },
-      {
-        title: "Distinction in Computer Commerce",
-        organization: "GMHSS Perinthalmanna (+2)",
-        year: "2024",
-        image: "/images/hijaz-portrait.png",
-      },
-    ],
-  },
+  heading: "Driving business growth through SEO, content strategy, paid advertising, and performance marketing",
 
+  paragraphs: [
+    "I am Thwaha, a Digital Marketing Analyst and SEO Specialist with hands-on experience in SEO, Google Ads, Meta Ads, social media management, content creation, and website optimization.",
+
+    "My experience includes technical SEO, on-page optimization, backlink building, keyword research, content strategy, website audits, Google Analytics reporting, Google Search Console monitoring, and performance marketing campaigns."
+  ],
+
+  competencies: [
+    {
+      title: "SEO Specialist",
+      organization: "Filumart B2B Marketplace",
+      year: "2026",
+      image: "/images/filumart.png",
+    },
+    {
+      title: "Digital Marketing Intern",
+      organization: "Bisaura Technologies",
+      year: "2025",
+      image: "/images/bisaura.png",
+    },
+    {
+      title: "SEO Audit Project",
+      organization: "Vismaya Amusement Park",
+      year: "2025",
+      image: "/images/vismaya.png",
+    },
+    {
+      title: "Content Strategy Project",
+      organization: "Majlis Restaurant",
+      year: "2025",
+      image: "/images/majlis.png",
+    },
+    {
+      title: "SEO & WordPress Specialist",
+      organization: "Personal Projects",
+      year: "2026",
+      image: "/images/thwaha.png",
+    },
+  ],
   // Education & Experience Timeline
   education: {
     badge: "Education & Experience",
     timeline: [
       {
-        period: "Dec 2025 - Present",
-        role: "Flutter Developer",
-        company: "Madariz Impex Pvt. Ltd.",
-        description: "Worked on the development and maintenance of Filumart, a global B2B e-commerce platform for Android and iOS. Built product listing, order management, authentication, FCM push notifications, WebSockets, and biometric authentication, and managed Google Play and App Store releases.",
-        iconType: "work", // 'work' | 'education' | 'school'
+        period: "2026 - Present",
+        role: "SEO Specialist",
+        company: "Filumart",
+        description: "Managing technical SEO, content strategy, programmatic SEO, keyword research, backlink building, analytics tracking, indexing optimization, and search visibility improvements.",
+        iconType: "work",
       },
       {
-        period: "May 2024 - Aug 2025",
-        role: "Flutter Development Program",
-        company: "Brototype Kochi",
-        description: "Completed intensive project-based engineering program focused on Flutter, Firebase, Clean Architecture, BLoC/Provider state management, deployment workflows, and collaborative software development.",
+        period: "2025 - 2026",
+        role: "Digital Marketing Executive",
+        company: "Certivo",
+        description: "Worked on SEO, Google Ads, Meta Ads, content marketing, analytics reporting, website optimization, and lead generation campaigns.",
+        iconType: "work",
+      },
+      {
+        period: "2025",
+        role: "Digital Marketing Intern",
+        company: "Bisaura Technologies",
+        description: "Worked on SEO, social media management, blog writing, content creation, Google Ads, Meta Ads, and website optimization.",
         iconType: "education",
       },
       {
-        period: "2022 - 2024",
-        role: "Higher Secondary Education (+2)",
-        company: "GMHSS Perinthalmanna",
-        description: "Commerce with Computer Applications. Graduated with academic distinction, building strong fundamentals in software concepts, database management, and problem solving.",
+        period: "2024 - 2025",
+        role: "Diploma in Digital Marketing",
+        company: "Digital Marketing Training",
+        description: "Learned SEO, SEM, SMM, analytics, content marketing, WordPress, Google Ads, Meta Ads, and performance marketing.",
         iconType: "school",
       },
     ],
@@ -171,126 +188,181 @@ export const portfolioContent = {
     heading: "Production & Featured Projects",
     items: [
       {
-        id: "filumart",
-        title: "Filumart B2B Marketplace",
-        subtitle: "Global B2B e-commerce platform on Android & iOS with product catalog, order workflows, biometric authentication, and FCM push notifications.",
-        category: "Production",
-        date: "2025 - Present",
-        role: "Flutter Developer at Madariz Impex",
+        id: "filumart-seo",
+        title: "Filumart SEO Growth Strategy",
+        subtitle: "Implemented technical SEO, content optimization, programmatic SEO, and indexing improvements for a global B2B marketplace.",
+        category: "SEO",
+        date: "2026",
+        role: "SEO Specialist",
         image: "/images/filumart.png",
-        liveUrl: "https://play.google.com/store/apps/details?id=com.filumart.buyer",
+        liveUrl: "https://filumart.com",
         githubUrl: null,
-        tags: ["Flutter", "BLoC", "REST APIs", "WebSockets", "FCM"],
+        tags: ["SEO", "Technical SEO", "Content Marketing", "GSC", "GA4"],
         featured: true,
       },
+
       {
-        id: "skilnk",
-        title: "Skilnk Learning Ecosystem",
-        subtitle: "Comprehensive e-learning platform with Student App, Tutor App, Tutor Web Portal, real-time chat, and Razorpay payment integration.",
-        category: "Mobile",
-        date: "2024",
-        role: "Full-Stack Mobile Engineer",
-        image: "/images/skilnk.png",
-        liveUrl: "https://play.google.com/store/apps/details?id=in.skilnk.user_app&hl=en_IN",
-        githubUrl: "https://github.com/hijaaaazz/Skilnk-E-Learning-App",
-        tags: ["Flutter", "Clean Architecture", "Firebase", "Razorpay"],
+        id: "vismaya-seo-audit",
+        title: "Vismaya Amusement Park SEO Audit",
+        subtitle: "Conducted a complete SEO audit including technical SEO analysis, keyword opportunities, indexing review, and content recommendations.",
+        category: "SEO Audit",
+        date: "2025",
+        role: "SEO Analyst",
+        image: "/images/vismaya.png",
+        liveUrl: "#",
+        githubUrl: null,
+        tags: ["SEO Audit", "Keyword Research", "Technical SEO", "Analytics"],
         featured: true,
       },
+
       {
-        id: "invento",
-        title: "Invento – Inventory Manager",
-        subtitle: "Lightweight offline inventory management application published on Google Play Store for small businesses to track sales, products, and revenue.",
-        category: "Mobile",
-        date: "2024",
-        role: "Lead Mobile Developer",
-        image: "/images/invento.png",
-        liveUrl: "https://play.google.com/store/apps/details?id=in.mhcnkd4.invento",
-        githubUrl: "https://github.com/hijaaaazz/Invento-Inventery-Management-App",
-        tags: ["Flutter", "Hive DB", "Offline-First", "Play Store"],
+        id: "majlis-content-strategy",
+        title: "Majlis Restaurant Content Strategy",
+        subtitle: "Created content calendars, social media strategy, audience engagement plans, and monthly reporting dashboards.",
+        category: "Content Marketing",
+        date: "2025",
+        role: "Digital Marketing Executive",
+        image: "/images/majlis.png",
+        liveUrl: "#",
+        githubUrl: null,
+        tags: ["Content Marketing", "Social Media", "Brand Strategy"],
         featured: true,
       },
+
       {
-        id: "floating-navbar",
-        title: "Floating Custom Navbar Package",
-        subtitle: "Published reusable open-source Flutter package on pub.dev providing customizable, interactive floating navigation experiences.",
-        category: "Packages",
-        date: "2024",
-        role: "Package Author & Maintainer",
-        image: "/images/floating_navbar.png",
-        liveUrl: "https://pub.dev/packages/floating_custom_navbar",
-        githubUrl: "https://github.com/hijaaaazz/floating_navbar",
-        tags: ["Flutter Package", "pub.dev", "UI Components", "Open Source"],
+        id: "google-ads-campaign",
+        title: "Lead Generation Google Ads Campaign",
+        subtitle: "Managed search and display campaigns focused on generating qualified leads while improving ROI and campaign performance.",
+        category: "Google Ads",
+        date: "2026",
+        role: "Performance Marketer",
+        image: "/images/google-ads.png",
+        liveUrl: "#",
+        githubUrl: null,
+        tags: ["Google Ads", "PPC", "Lead Generation", "Analytics"],
         featured: true,
       },
+
+      {
+        id: "meta-ads-campaign",
+        title: "Meta Ads Brand Awareness Campaign",
+        subtitle: "Executed Facebook and Instagram advertising campaigns to increase brand reach, engagement, and audience growth.",
+        category: "Meta Ads",
+        date: "2026",
+        role: "Digital Marketing Analyst",
+        image: "/images/meta-ads.png",
+        liveUrl: "#",
+        githubUrl: null,
+        tags: ["Meta Ads", "Facebook Ads", "Instagram Ads", "Performance Marketing"],
+        featured: true,
+      },
+
+      {
+        id: "thwaha-personal-brand",
+        title: "Thwaha Personal Brand Website",
+        subtitle: "Built and optimized a personal branding website focusing on SEO, EEAT, GEO, AEO, and digital marketing services.",
+        category: "Personal Branding",
+        date: "2026",
+        role: "SEO Specialist",
+        image: "/images/thwaha-site.png",
+        liveUrl: "https://thwaha.com",
+        githubUrl: null,
+        tags: ["WordPress", "SEO", "Personal Branding", "Content Marketing"],
+        featured: true,
+      }
     ],
   },
 
   // Services Offered Section
-  services: {
-    badge: "Services",
-    heading: "Production-ready mobile engineering & UI/UX design",
-    items: [
-      {
-        id: "mobile-app-dev",
-        title: "Mobile App Development",
-        tags: [
-          "From Scratch to Deployment",
-          "iOS & Android",
-          "Clean Architecture & Scaling",
-          "REST APIs & Auth",
-          "Play Store & App Store Release",
-        ],
-        description: "Full-lifecycle iOS & Android mobile engineering from scratch to production deployment. Architectural planning, scaling, Clean Architecture with BLoC, seamless REST API integration, authentication, and Google Play Store & Apple App Store release.",
-        images: ["/images/filumart.png", "/images/skilnk.png"],
-      },
-      {
-        id: "ui-ux-design",
-        title: "UI/UX Designing",
-        tags: [
-          "From Scratch to Prototype",
-          "Figma Interactive Prototypes",
-          "Design Systems",
-          "UX Architecture & Wireframes",
-          "Mobile-First UI",
-        ],
-        description: "End-to-end interface and experience design from scratch to interactive clickable prototypes. Crafting user research-driven wireframes, comprehensive design systems, component libraries, and polished micro-interactions ready for production.",
-        images: ["/images/skilnk.png", "/images/floating_navbar.png"],
-      },
-    ],
-  },
+  items: [
+    {
+      id: "seo-services",
+      title: "Search Engine Optimization",
+      tags: [
+        "Technical SEO",
+        "On-Page SEO",
+        "Off-Page SEO",
+        "Local SEO",
+        "Keyword Research",
+      ],
+      description: "Comprehensive SEO services focused on improving rankings, traffic, visibility, and conversions.",
+      images: ["/images/seo1.png", "/images/seo2.png"],
+    },
+
+    {
+      id: "google-ads",
+      title: "Google Ads Management",
+      tags: [
+        "Search Ads",
+        "Display Ads",
+        "YouTube Ads",
+        "Remarketing",
+        "Lead Generation",
+      ],
+      description: "Strategic Google Ads campaigns designed to increase leads, sales, and ROI.",
+      images: ["/images/googleads1.png", "/images/googleads2.png"],
+    },
+
+    {
+      id: "meta-ads",
+      title: "Meta Ads Management",
+      tags: [
+        "Facebook Ads",
+        "Instagram Ads",
+        "Audience Targeting",
+        "Lead Generation",
+        "Performance Marketing",
+      ],
+      description: "High-performing Meta advertising campaigns for business growth and customer acquisition.",
+      images: ["/images/meta1.png", "/images/meta2.png"],
+    },
+  ],
 
   // Tech Stack & Tooling Section
-  tech: {
-    badge: "Tech Stack",
-    heading: "See how my expertise with these tools drives better results",
-    items: [
-      {
-        name: "Flutter & Dart",
-        duty: "Cross-platform mobile apps",
-        percent: 90,
-        iconSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
-      },
-      {
-        name: "Firebase & Cloud",
-        duty: "Auth, Firestore, Realtime DB, Storage, Hosting & FCM",
-        percent: 90,
-        iconSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
-      },
-      {
-        name: "Figma",
-        duty: "Mobile & web UI/UX design",
-        percent: 85,
-        iconSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
-      },
-      {
-        name: "Git & GitHub",
-        duty: "Version control & collaboration",
-        percent: 88,
-        iconSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
-        isGithub: true,
-      },
-    ],
-  },
+  items: [
+    {
+      name: "SEO",
+      duty: "Search Engine Optimization",
+      percent: 95,
+      iconSrc: "/icons/seo.svg",
+    },
+    {
+      name: "Google Ads",
+      duty: "Search, Display & YouTube Advertising",
+      percent: 85,
+      iconSrc: "/icons/googleads.svg",
+    },
+    {
+      name: "Meta Ads",
+      duty: "Facebook & Instagram Advertising",
+      percent: 85,
+      iconSrc: "/icons/meta.svg",
+    },
+    {
+      name: "Google Analytics",
+      duty: "Traffic & Conversion Tracking",
+      percent: 80,
+      iconSrc: "/icons/analytics.svg",
+    },
+    {
+      name: "Google Search Console",
+      duty: "Indexing & Search Performance",
+      percent: 90,
+      iconSrc: "/icons/gsc.svg",
+    },
+    {
+      name: "SEMrush",
+      duty: "SEO Research & Competitor Analysis",
+      percent: 85,
+      iconSrc: "/icons/semrush.svg",
+    },
+    {
+      name: "WordPress",
+      duty: "Website Management",
+      percent: 90,
+      iconSrc: "/icons/wordpress.svg",
+    },
+  ],
 
   // Thoughts, Milestones & Articles Section
   blog: {
@@ -298,47 +370,91 @@ export const portfolioContent = {
     heading: "Thoughts &\nMoments",
     posts: [
       {
-        id: "stop-opening-five-emulators",
-        title: "Stop Opening Five Emulators to Test One Flutter Layout",
-        date: "Aug 2026",
-        category: "Technical Article",
-        readTime: "Medium • 6 min read",
-        image: "/images/blog-flutter-emulators.png",
-        summary: "You don't always need multiple emulators to test responsiveness. Running your app as a desktop application and resizing the window creates an instant, tighter feedback loop that transforms Flutter UI development.",
-        url: "https://medium.com/@hijaz/stop-opening-five-emulators-to-test-one-flutter-layout-346719bf3590",
-        platform: "Medium",
+        id: "technical-seo-guide",
+        title: "Technical SEO: The Foundation of Better Rankings",
+        date: "Sep 2026",
+        category: "SEO",
+        readTime: "7 min read",
+        image: "/images/blog-tech-seo.jpg",
+        summary: "A practical guide to understanding crawlability, indexing, site performance, schema markup, and technical SEO best practices.",
+        url: "#",
+        platform: "Website",
       },
+
       {
-        id: "filumart-inauguration-milestone",
-        title: "One for the Memories: Filumart Inauguration & Milestone",
-        date: "2026",
-        category: "Career Milestone",
-        readTime: "Pillar of Success Award",
-        image: "/images/blog-filumart-milestone.jpg",
-        summary: "Seeing Filumart officially inaugurated after months of dedication feels incredible. Honored to receive the Pillar of Success Award from Chairman Mujeebudeen Madariz. Here’s to building resilient systems and many more milestones ahead!",
-        url: "https://www.linkedin.com/posts/hijaaaazz_amomenttoremember-milestone-activity-7497144343493763072-p7s5",
-        platform: "LinkedIn",
+        id: "programmatic-seo",
+        title: "How Programmatic SEO Can Scale Organic Growth",
+        date: "Aug 2026",
+        category: "SEO Strategy",
+        readTime: "8 min read",
+        image: "/images/blog-programmatic.jpg",
+        summary: "Exploring how programmatic SEO creates thousands of optimized landing pages and improves search visibility at scale.",
+        url: "#",
+        platform: "Website",
       },
+
+      {
+        id: "google-ads-optimization",
+        title: "5 Ways to Improve Google Ads Performance",
+        date: "Jul 2026",
+        category: "Google Ads",
+        readTime: "6 min read",
+        image: "/images/blog-google-ads.jpg",
+        summary: "Actionable techniques for improving Quality Score, reducing CPC, increasing CTR, and generating more qualified leads.",
+        url: "#",
+        platform: "Website",
+      },
+
+      {
+        id: "meta-ads-growth",
+        title: "Meta Ads Strategies for Business Growth",
+        date: "Jun 2026",
+        category: "Meta Ads",
+        readTime: "5 min read",
+        image: "/images/blog-meta-ads.jpg",
+        summary: "Learn how audience targeting, creative testing, and campaign optimization can improve advertising performance.",
+        url: "#",
+        platform: "Website",
+      },
+
+      {
+        id: "filumart-seo-lessons",
+        title: "SEO Lessons Learned from a B2B Marketplace",
+        date: "May 2026",
+        category: "Case Study",
+        readTime: "9 min read",
+        image: "/images/blog-filumart.jpg",
+        summary: "Insights gained while working on technical SEO, content strategy, indexing, and visibility improvements for a B2B marketplace.",
+        url: "#",
+        platform: "Website",
+      },
+
+      {
+        id: "future-of-search",
+        title: "The Future of Search: GEO, AEO & AI Search",
+        date: "Apr 2026",
+        category: "AI SEO",
+        readTime: "8 min read",
+        image: "/images/blog-geo.jpg",
+        summary: "Understanding how Generative Engine Optimization, Answer Engine Optimization, and AI search are changing digital marketing.",
+        url: "#",
+        platform: "Website",
+      }
     ],
   },
 
   // Contact Details
   contact: {
     badge: "CONTACT",
-    heading: "If you have a general question, project idea, or just want to get in touch, feel free to drop me an email or fill out the form below.",
-    email: "hijaz.fd@gmail.com",
-    
-    location: "Kerala, India",
+    heading: "Let's discuss your next SEO or digital marketing project.",
+
+    email: "hello@thwaha.com",
+
+    location: "Kannur, Kerala, India",
+
     quote: {
-      text: "First, solve the problem. Then, write the code.",
-      author: "John Johnson",
-    },
-    // Optional EmailJS fallback keys if not using .env variables
-    // (Recommended: keep them in .env so they stay private from public repos!)
-    emailjs: {
-      serviceId: "",
-      templateId: "",
-      publicKey: "",
+      text: "Marketing is no longer about the stuff you make, but about the stories you tell.",
+      author: "Seth Godin",
     },
   },
 
@@ -346,27 +462,27 @@ export const portfolioContent = {
   socialLinks: [
     {
       platform: "LinkedIn",
-      username: "hijaaaazz",
-      url: "https://www.linkedin.com/in/hijaaaazz/",
+      username: "thwaha",
+      url: "https://linkedin.com/in/thwaha",
     },
     {
-      platform: "GitHub",
-      username: "hijaaaazz",
-      url: "https://github.com/hijaaaazz",
+      platform: "Instagram",
+      username: "@thwaha",
+      url: "https://instagram.com/thwaha",
     },
     {
       platform: "Medium",
-      username: "@hijaz",
-      url: "https://medium.com/@hijaz",
+      username: "@thwaha",
+      url: "https://medium.com/@thwaha",
     },
   ],
 
   // Footer Metadata
   footer: {
-    brandTitle: "Hijaz C",
-    tagline: "Flutter Developer",
-    displayWordmark: "hijaz",
-    copyright: `© ${new Date().getFullYear()} Muhammed Hijaz C • Flutter Developer`,
+    brandTitle: "Thwaha",
+    tagline: "Digital Marketing Analyst & SEO Specialist",
+    displayWordmark: "thwaha",
+    copyright: `© ${new Date().getFullYear()} Thwaha • Digital Marketing Analyst & SEO Specialist`,
   },
 };
 
